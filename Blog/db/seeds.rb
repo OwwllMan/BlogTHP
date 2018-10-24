@@ -12,3 +12,8 @@
 10.times do |index|
   user = User.create!(frist_name: "Prenom#{index}", last_name: "Nom#{index}", email: "email#{index}@example.com")
 end
+
+
+10.times do |index|
+  article = Article.create!(title: "Title#{index}", content: "Content#{index}")
+end
