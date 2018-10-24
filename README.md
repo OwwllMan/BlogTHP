@@ -16,11 +16,9 @@ This will install all the dependencies needed for the exercises.
 
 in this project we use : 
 
+```sh
 source "https://rubygems.org"
 ruby '2.5.1'
-
-```sh
-
 ```
 
 ## :european_post_office: The Strasbourg Crew 💪
