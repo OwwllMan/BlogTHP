@@ -5,15 +5,3 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-
-
-
-10.times do |index|
-  user = User.create!(first_name: "Prenom#{index}", last_name: "Nom#{index}", email: "email#{index}@example.com")
-end
-
-
-10.times do |index|
-  article = Article.create!(title: "Title#{index}", content: "Content#{index}")
-end
